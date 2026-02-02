@@ -1,10 +1,58 @@
 # Calculator Application – Python
 A simple command-line calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. This project follows the structure and requirements defined in the Software Requirements Document, including input validation, error handling, and a menu-driven user interface.
 
-# How to Run the Application
+## How to Run the Application
 1. Requirements:
 Python 3 installed on your system
 
 2. Steps to Run:
 Download or clone the repository 
-git clone <your-repo-link>
+git clone <https://github.com/RANGAHARISH/Calculator.git>
+
+3. Open the folder in your terminal.
+Run the Python file:python calculator.py
+
+5. The calculator menu will appear.
+Choose an option (1–5) and follow the instructions.
+
+## Sample Inputs and Outputs
+
+Sample Run 1 (Addition):
+=============================
+   Calculator Application
+=============================
+
+Select Operation
+1: Addition
+2: Subtraction
+3: Multiplication
+4: Division
+5: Exit
+
+Select a value: 1
+Enter a value: 10
+Enter b value: 20
+
+Result: 30.0
+
+
+Sample Run 2 (Division by Zero):
+Select a value: 4
+Enter a value: 20
+Enter b value: 0
+Error: Division by zero is not allowed. Please enter a non-zero number.
+
+Sample Run 3 (Invalid Menu Input):
+Select a value: 8
+Error: Invalid option. Please select a number between 1 and 5.
+
+Sample Run 4 (Exit):
+Select a value: 5
+Thank you for using Calculator Application. Goodbye!
+
+
+
+
+
+
+
