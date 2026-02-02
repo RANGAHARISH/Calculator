@@ -12,16 +12,15 @@ git clone <https://github.com/RANGAHARISH/Calculator.git>
 3. Open the folder in your terminal.
 Run the Python file:python calculator.py
 
-5. The calculator menu will appear.
+4. The calculator menu will appear.
 Choose an option (1–5) and follow the instructions.
 
 ## Sample Inputs and Outputs
 
 Sample Run 1 (Addition):
 =============================
-   Calculator Application
+Calculator Application
 =============================
-
 Select Operation
 1: Addition
 2: Subtraction
@@ -50,6 +49,33 @@ Sample Run 4 (Exit):
 Select a value: 5
 Thank you for using Calculator Application. Goodbye!
 
+## Design Decisions
+1. Modular Functions
+Each arithmetic operation is implemented as its own function:
+addition(a, b)
+subtraction(a, b)
+multiplication(a, b)
+division(a, b)
+This keeps the code clean, reusable, and easy to test.
+
+2. While Loop for Continuous Operation
+A while True loop is used so the user can perform multiple calculations without restarting the program.
+
+3. Input Validation
+try-except blocks ensure:
+Only numbers are accepted
+Invalid menu choices do not crash the program
+
+4. SRD Compliance
+The program follows the SRD guidelines:
+Menu formatting
+Error messages
+Division by zero handling
+Validation for all inputs
+Clear, user-friendly output
+
+5. Easy Extensibility
+The structure allows adding more operations in the future (e.g., square root, percentage, power).
 
 
 
