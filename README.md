@@ -17,6 +17,7 @@ Choose an option (1–5) and follow the instructions.
 
 ## Sample Inputs and Outputs
 
+```
 Sample Run 1 (Addition):
 =============================
 Calculator Application
@@ -33,22 +34,27 @@ Enter a value: 10
 Enter b value: 20
 
 Result: 30.0
+```
 
 
+```
 Sample Run 2 (Division by Zero):
 Select a value: 4
 Enter a value: 20
 Enter b value: 0
 Error: Division by zero is not allowed. Please enter a non-zero number.
+```
 
+```
 Sample Run 3 (Invalid Menu Input):
 Select a value: 8
 Error: Invalid option. Please select a number between 1 and 5.
-
+```
+```
 Sample Run 4 (Exit):
 Select a value: 5
 Thank you for using Calculator Application. Goodbye!
-
+```
 ## Design Decisions
 1. Modular Functions
 Each arithmetic operation is implemented as its own function:
@@ -75,7 +81,7 @@ Validation for all inputs
 Clear, user-friendly output
 
 5. Easy Extensibility
-The structure allows adding more operations in the future (e.g., square root, percentage, power).
+The structure allows adding more operations in the future (square root, percentage, power).
 
 
 
