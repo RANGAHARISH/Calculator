@@ -26,6 +26,21 @@ Run the Python file:python calculator.py
 4. The calculator menu will appear.
 Choose an option (1–5) and follow the instructions.
 
+## How to Run Tests
+Method 1 — Run test file directly
+python tests/test_calculator.py
+
+Method 2 — Use unittest discovery (recommended)
+python -m unittest discover
+
+### Expected Output
+```
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+Each dot (.) represents a passed test.
+```
+
 ## Sample Inputs and Outputs
 
 ```
