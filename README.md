@@ -1,6 +1,17 @@
 # Calculator Application – Python
 A simple command-line calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. This project follows the structure and requirements defined in the Software Requirements Document, including input validation, error handling, and a menu-driven user interface.
 
+## Features
+```
+>> Modular arithmetic functions\Menu-driven interface
+>> Input validation using try-except
+>> Division-by-zero protection
+>> User-friendly error messages
+>> Clean, reusable project structure
+>> Easy to extend (power, percentage, etc.)
+>> Unit testing support
+```
+
 ## How to Run the Application
 1. Requirements:
 Python 3 installed on your system
